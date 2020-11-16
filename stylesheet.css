@@ -1,0 +1,214 @@
+/* Notes: Remember that this is Bootstrap with custom CSS - you may see classes in the HTML that you can 
+not find in the CSS - these are the bootstrap classes */
+
+* {
+    font-family: Raleway;
+    border-radius: 0 !important;
+}
+
+.navbar-color {
+    background-color: #242c2f;
+}
+
+/* Top three cards */
+
+.top3 {
+    background-color: #f2f2f2;
+}
+
+.top3-headings {
+    color: #5f5d5d;
+}
+
+.top3-numbers {
+    color: #3fadd7;
+    font-size: 3rem;
+}
+
+.bot3 {
+    background-color: #f2f2f2;
+}
+
+.eqa-submission {
+    background-color: #3fadd7;
+    color: white;
+    padding: 1rem;
+    font-family: 'Gill Sans', Raleway;
+    box-shadow: 9px 9px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.eqa-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.arrow-right-green {
+    background-color: #00af50;
+    padding: 1rem;
+    box-shadow: 9px 9px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.arrow-right-orange {
+    background-color: #ed7d31;
+    padding: 1rem;
+    box-shadow: 9px 9px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 9px 9px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    float: right;
+    text-align: right;
+    margin-top: -3.8rem;
+}
+
+.arrow-right-red {
+    background-color: #c00000;
+    padding: 1rem;
+    box-shadow: 9px 9px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bot4-text {
+    color: #5f5d5d;
+    flex: 3;
+    margin-top: 0.8rem;
+}
+
+.bot3-numbers {
+    color: white;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+/* Search Bar */
+
+.search-bar {
+    background-color: #3fadd7;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    display: flex;
+}
+
+.search-bar-title {
+    padding-bottom: -150px;
+}
+
+/* Table CSS */
+
+.table-container {
+    overflow: auto;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 98.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bot-cards-images {
+    margin-right: 3px;
+}
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: #4CAF50;
+}
+
+/* Mobile Compatibility */
+
+@media all and (max-width: 1172px) {
+    .card-deck {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: column;
+    }
+    .card-deck .card {
+        margin-bottom: 15px;
+    }
+}
